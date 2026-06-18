@@ -1,0 +1,101 @@
+<svg width="100%" viewBox="0 0 490 490" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">PRISM AI — CI Logo</title>
+<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Square PRISM AI logo with prism splitting white light into rainbow spectrum</desc>
+
+<defs>
+  <linearGradient id="beam-in" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.0"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.85"/>
+  </linearGradient>
+  <linearGradient id="ray-r" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FF3B3B" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#FF3B3B" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="ray-o" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FF8C00" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#FF8C00" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="ray-y" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FFD700" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#FFD700" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="ray-g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3ECF5A" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#3ECF5A" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="ray-b" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3B9EFF" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#3B9EFF" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="ray-i" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6A5ACD" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#6A5ACD" stop-opacity="0.0"/>
+  </linearGradient>
+  <linearGradient id="ray-v" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#C45EE8" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#C45EE8" stop-opacity="0.0"/>
+  </linearGradient>
+  <clipPath id="sq-clip">
+    <rect x="0" y="0" width="480" height="480"/>
+  </clipPath>
+</defs>
+
+<!-- Background -->
+<rect width="480" height="480" fill="#0a0a0a" style="fill:rgb(10, 10, 10);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Dot pattern -->
+<g opacity="0.05" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.05;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="15" cy="15" r="1" fill="#ffffff"/>
+  </pattern>
+  <rect width="480" height="480" fill="url(#dots)" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</g>
+
+<!-- Prism center x=240, beam enters from left, exits right -->
+<!-- Prism apex=(240,95) BL=(172,315) BR=(308,315) — centered at x=240 -->
+
+<g clip-path="url(#sq-clip)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <!-- Incoming white beam: heading toward left face midpoint ~(206,215) -->
+  <polygon points="18,205 18,220 240,228 240,222" fill="url(#beam-in)" opacity="0.7" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Outgoing rainbow rays fanning from right face midpoint ~(275,215) -->
+  <polygon points="275,210 275,216 462,122 462,110" fill="url(#ray-r)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="275,212 275,218 462,147 462,135" fill="url(#ray-o)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="275,214 275,220 462,172 462,160" fill="url(#ray-y)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="275,216 275,222 462,197 462,185" fill="url(#ray-g)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="275,218 275,224 462,222 462,210" fill="url(#ray-b)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="275,220 275,226 462,247 462,235" fill="url(#ray-i)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="275,223 275,230 462,274 462,260" fill="url(#ray-v)" opacity="0.85" style="stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.85;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Prism triangle centered at x=240 -->
+  <polygon points="240,95 172,315 308,315" fill="#161616" style="fill:rgb(22, 22, 22);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="240,95 172,315 308,315" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" opacity="0.92" style="fill:none;stroke:rgb(255, 255, 255);color:rgb(0, 0, 0);stroke-width:1.8px;stroke-linecap:butt;stroke-linejoin:round;opacity:0.92;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Apex light — bright point with subtle vertical ray -->
+  <circle cx="240" cy="95" r="3" fill="#ffffff" opacity="0.95"/>
+  <circle cx="240" cy="95" r="7" fill="#ffffff" opacity="0.25"/>
+  <circle cx="240" cy="95" r="12" fill="#ffffff" opacity="0.10"/>
+  <polygon points="239,72 241,72 240.6,95 239.4,95" fill="#ffffff" opacity="0.55"/>
+
+  <!-- Entry glow on left face -->
+  <ellipse cx="206" cy="218" rx="6" ry="3" fill="#ffffff" opacity="0.35" transform="rotate(-35 206 218)" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Exit glow on right face -->
+  <ellipse cx="275" cy="217" rx="6" ry="3" fill="#ffffff" opacity="0.28" transform="rotate(35 275 217)" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.28;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</g>
+
+<!-- PRISM wordmark — centered at x=240 -->
+<text x="240" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="13" fill="#ffffff" opacity="0.95" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.95;font-family:Arial, sans-serif;font-size:32px;font-weight:700;text-anchor:middle;dominant-baseline:auto">PRISM</text>
+
+<!-- Spectrum bar centered under PRISM -->
+<rect x="166" y="385" width="21" height="2" fill="#FF3B3B" opacity="0.8" style="fill:rgb(255, 59, 59);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="187" y="385" width="21" height="2" fill="#FF8C00" opacity="0.8" style="fill:rgb(255, 140, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="208" y="385" width="21" height="2" fill="#FFD700" opacity="0.8" style="fill:rgb(255, 215, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="229" y="385" width="21" height="2" fill="#3ECF5A" opacity="0.8" style="fill:rgb(62, 207, 90);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="250" y="385" width="21" height="2" fill="#3B9EFF" opacity="0.8" style="fill:rgb(59, 158, 255);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="271" y="385" width="21" height="2" fill="#6A5ACD" opacity="0.8" style="fill:rgb(106, 90, 205);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="292" y="385" width="22" height="2" fill="#C45EE8" opacity="0.8" style="fill:rgb(196, 94, 232);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Pre-Risk Identifier for SI Management — clean light-gray subtitle -->
+<text x="240" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="1.2" fill="#d4d4d4" opacity="0.95">Pre-Risk Identifier for SI Management</text>
+
+</svg>
